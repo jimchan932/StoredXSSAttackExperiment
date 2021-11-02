@@ -70,11 +70,11 @@ else
 		setcookie("password", $password, time()+3600*24*(2));
 		if(isset($_COOKIE["username"]))
 		{
-			echo "Great, username cookie is set: ".$_COOKIE["username"];
+			echo "Great, username cookie is set.";
 		}
 		if(isset($_COOKIE["password"]))
 		{
-			echo "Great, password cookie is set: ".$_COOKIE["password"];
+			echo "Great, password cookie is set.";
 		}		
 		mysqli_close($mysql);		
 
