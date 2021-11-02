@@ -1,0 +1,41 @@
+<html>
+<head>
+</head>
+    <style type="text/css">
+        .comment-title{
+            font-size:14px;
+            margin: 6px 0px 2px 4px;
+        }
+        .comment-body{
+            font-size: 14px;
+            color:#ccc;
+            font-style: italic;
+            border-bottom: dashed 1px #ccc;
+            margin: 4px;
+        }
+    </style>
+<body>
+    <form method="post" action="list.php">
+        <div style="margin:20px;">
+            <div style="font-size:16px;font-weight:bold;">post comment</div>
+            <div style="padding:6px;">
+                nickname:
+                <br/>
+                <input name="nicknameid" type="text" style="width:300px;"/>
+            </div>
+            <div style="padding:6px;">
+                comment:
+                <br/>
+                <textarea name="commentid" style="height:100px; width:300px;"></textarea>
+            </div>
+            <div style="padding-left:230px;">
+                <input type="submit" value="POST" style="padding:4px 0px; width:80px;"/>
+            </div>
+            <div style="border-bottom:solid 1px #fff;margin-top:10px;">
+                <div style="font-size:16px;font-weight:bold;">Form Comments</div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
