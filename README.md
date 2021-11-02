@@ -1,6 +1,6 @@
 # 跨站式脚本攻击（XSS attack) 实验
 
-# 支持的操作系统
+# 支持操作系统
 Windows, Linux
 # 需要软件
 Apache HTTP Server, MySQL, PHP 7.0
