@@ -17,10 +17,10 @@ insert into authorized_users (name, password)
 insert into authorized_users (name, password)
        values ('hacker', '78539816');
 
-grant select on auth.*
-      to 'localhost'
-      identified by 'root';
+--grant select on auth.*
+--      to 'localhost'
+--      identified by 'root';
 
 
 
-flush privileges;
+--flush privileges;
